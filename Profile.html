@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="Profile.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/1147679ae7.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamses"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="card-profile">
+
+        <div class="profile-img">
+            <img src="img/z3711814377844_1a56ca78db8e124c8311ad2dca281d41.jpg" class="img-item" alt="">
+        </div>
+        <div class="profile-list">
+            <h2 class="profile-name">Đỗ Huy Hoàng</h2>
+            <p class="profile-job">Frontend Developer</p>
+            <div class="profile-social">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="profile-contact">
+                <button class="contact-btn">Contact me</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-profile">
+        <div class="profile-img">
+            <img src="img/z3711815462510_d6d1fafe7c5d38124fd9002db3da7085.jpg" class="img-item" alt="">
+        </div>
+        <h2 class="profile-name">Phạm Bình An</h2>
+        <p class="profile-job">Backend Developer</p>
+        <div class="profile-social">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="profile-contact">
+            <button class="contact-btn">Contact me</button>
+        </div>
+
+    </div>
+    <div class="card-profile">
+        <div class="profile-img">
+            <img src="img/z3711817820543_5b621c48cb64823348e2a7533744113f.jpg" class="img-item" alt="">
+        </div>
+        <h2 class="profile-name">Thanh Hà</h2>
+        <p class="profile-job">Fullstack Developer</p>
+        <div class="profile-social">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="profile-contact">
+            <button class="contact-btn">Contact me</button>
+        </div>
+
+
+    </div>
+
+
+</body>
+<script>
+    const imgB = document.querySelector('.img-item')
+
+    imgB.addEventListener("click", function () {
+        this.classList.toggle('active')
+    })
+</script>
+
+</html>
